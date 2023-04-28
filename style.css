@@ -1,0 +1,209 @@
+/* Définition des styles de base */
+
+body {
+    max-width: 80%;
+    
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #333;
+	margin: 0 10%;
+	padding: 0;
+   
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	margin-top: 0;
+}
+
+a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    
+
+}
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+
+/* Styles de la section "À propos de moi" */
+
+#about {
+	background-color: #f7f7f7;
+	padding: 30px;
+}
+
+/* Styles de la section "Expérience professionnelle" */
+
+#experience {
+	padding: 30px;
+}
+
+.clas {
+	margin-bottom: 30px;
+}
+
+.clas  h3 {
+	margin-bottom: 5px;
+}
+
+.clas p {
+	margin-top: 0;
+}
+
+/* Styles de la section "Formation" */
+
+#education {
+	background-color: #f7f7f7;
+	padding: 30px;
+}
+
+/* Styles de la section "Compétences" */
+
+#skills {
+	padding: 30px;
+}
+
+ul li {
+	margin-bottom: 10px;
+}
+
+
+/* Styles de l'en-tête et du pied de page */
+
+header {
+	background-color: #007bff;
+	color: #fff;
+	padding: 30px;
+}
+
+header h1, header h2 {
+	margin-top: 0;
+	color: #fff;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #fff;
+}
+.arab {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px #4caf50;
+    justify-content: space-between;    
+    padding-top:8px;
+    padding-right: 150px;
+    padding-left: 30px;
+}
+
+
+.trait-etoile-5 {
+     width: 50%;
+     height: 40px;
+     background-image: repeating-linear-gradient(45deg, #ffdc00, #ffdc00 10px, #000 10px, #000 20px);
+ }
+.trait-etoile-5.1 {
+     padding: 10px;
+     width: 50%;
+     height: 30px;
+     background-image: repeating-linear-gradient(45deg, #ffdc00, #ffdc00 10px, #000 10px, #000 20px);
+ }
+  .trait-etoile-4 {
+        width: 40%;
+        height: 20px;
+        background-image: repeating-linear-gradient(45deg, #ffdc00, #ffdc00 10px, #000 10px, #000 20px);
+ }
+ .trait-etoile-3 {
+     width: 30%;
+     height: 10px;
+     background-image: repeating-linear-gradient(45deg, #ffdc00, #ffdc00 10px, #000 10px, #000 20px);
+ }
+       
+      
+
+#contact {
+     background-color: #f7f7f7 ;
+        margin: 0 auto;
+        text-align: center;
+      }
+     
+      #contact h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+      
+      #contact form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      #contact label {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      #contact input,
+      #contact textarea {
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+      }
+      
+      #contact input:focus,
+      #contact textarea:focus {
+        outline: none;
+        border-color: #4caf50;
+      }
+      
+      #contact input[type="submit"] {
+        background-color: #4caf50;
+        color: #fff;
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      #contact input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+      
+   
+
+
+footer {
+	background-color: #007bff;
+	padding: 30px;
+	text-align: center;
+    color: #fff;
+}
